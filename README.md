@@ -2,13 +2,14 @@
 ## Aim:
 To write a C program to create a function to find the greatest number
 
-## Algorithm:
+## Algorithm
+```
 1.Include the necessary header #include <stdio.h>.
 2.Use a series of if and else if statements to compare the values and return the maximum among them.
 3.Declare variables n1, n2, n3, n4, and greater to store user input and the result.
 4.Use scanf to take four integers as input.
 5.Call the max_of_four function with the input integers and store the result in the greater variable
-
+```
 ## Program:
 ```
 #include<stdio.h>
@@ -48,6 +49,7 @@ Thus, the program  that create a function to find the greatest number is verifie
 To write a C program to print the maximum values for the AND, OR and XOR comparisons
 
 ## Algorithm:
+```
 1.Define a function calculate_the_max that takes two integers n and k as parameters.
 2.Declare variables a, o, and x to store the maximum values for AND, OR, and XOR operations, respectively.
 3.Use nested loops to iterate through pairs of integers (i, j) from 1 to n.
@@ -55,7 +57,7 @@ To write a C program to print the maximum values for the AND, OR and XOR compari
 5.Declare variables n and k to store user input.
 6.Use scanf to take two integers as input.
 7.Call the calculate_the_max function with input values.
-
+```
 ## Program:
 ```
 #include<stdio.h>
@@ -98,12 +100,13 @@ is verified successfully.
 To write a C program to write the logic for the requests
 
 ## Algorithm:
+```
 1.Declare variables noshel and noque to store the number of shelves and the number of queries, respectively.
 2.Use scanf to take two integers as input for the number of shelves and queries.
 3.Declare a 2D array shelarr to represent shelves and books, and an array nobookarr to store the number of books on each shelf.
 4.Declare variables k and c to keep track of the book index and the total number of books.
 5.Use a for loop to iterate over the queries.
-
+```
 ## Program:  
 ```
 
@@ -142,6 +145,7 @@ Thus, the program to write the logic for the requests is verified successfully.
 To write a C program print the sum of the integers in the array.
 
 ## Algorithm:
+```
 1.Declare a variable n to store the number of integers.
 2.Use scanf to take an integer n as input.
 3.Declare an array a of size n to store the integers.
@@ -149,7 +153,7 @@ To write a C program print the sum of the integers in the array.
 5.Use a for loop to iterate n times:
 6.Use scanf to input each integer and add it to the sum.
 7.Print the final sum using printf.
-
+```
 ## Program: 
 ```
 #include<stdio.h> int main()
@@ -175,7 +179,7 @@ Thus, the program prints the sum of the integers in the array is verified succes
 To write a C program that counts the number of words in a given sentence.
 
 ## Algorithm:
-
+```
 1.Input the sentence: Take a sentence from the user.
 2.Initialize a counter variable: This will keep track of the number of words.
 3.Process each character of the sentence:
@@ -183,7 +187,7 @@ oIterate through the sentence, checking each character.
 oIf a character is not a space, it may belong to a word. If it's the first non-space character after a space or at the start, increment the word count.
 4.Handle spaces and punctuation: Skip over spaces, punctuation marks, and consider each word as a sequence of characters separated by spaces.
 5.Display the result: After processing the sentence, output the total word count.
-
+```
 ## Program:
 ```
 #include<stdio.h>
